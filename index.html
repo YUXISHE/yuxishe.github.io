@@ -20,6 +20,20 @@
   <link rel="stylesheet" href="/css/style.css">
   
 
+  
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1f8d120b684324e6195a167cf7fe89c8";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
 </head>
 
 <body>
@@ -40,8 +54,6 @@
           <a class="main-nav-link" href="/tags">Tags</a>
         
           <a class="main-nav-link" href="/about">About</a>
-        
-          <a class="main-nav-link" href="/atom.xml">Rss</a>
         
       </nav>
       <nav id="sub-nav">
@@ -91,7 +103,7 @@
 <p>无序列表：-/+/* + 空格 ＋ 文本<br>有序列表：数字 ＋空格 ＋ 文本<br>列表嵌套:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">1. 列出所有元素：</div><div class="line">    - 无序列表元素 A</div><div class="line">        1. 元素 A 的有序子列表</div><div class="line">    - 前面加四个空格</div><div class="line">2. 列表里的多段换行：</div><div class="line">    前面必须加四个空格，</div><div class="line">    这样换行，整体的格式不会乱</div><div class="line">3. 列表里引用：</div><div class="line"></div><div class="line">    &gt; 前面空一行</div><div class="line">    &gt; 仍然需要在 &gt;  前面加四个空格</div></pre></td></tr></table></figure></p>
 <p>4 引用</p>
 <p>普通引用：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; 引用文本前使用 [大于号+空格]</div></pre></td></tr></table></figure></p>
-<p>嵌套引用：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; 最外层引用</div><div class="line">&gt; &gt; 多一个 &gt; 嵌套一层引用</div><div class="line">&gt; &gt; &gt; 可以嵌套很多层,注意，两个大于号之间有空格，</div></pre></td></tr></table></figure></p>
+<p>嵌套引用：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; 最外层引用</div><div class="line">&gt; &gt; 多一个 &gt; 嵌套一层引用</div><div class="line">&gt; &gt; &gt; 可以嵌套很多层</div></pre></td></tr></table></figure></p>
 <p>引用里嵌套列表：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; - 这是引用里嵌套的一个列表</div><div class="line">&gt; - 还可以有子列表</div><div class="line">&gt;     * 子列表需要从 - 之后延后四个空格开始</div></pre></td></tr></table></figure></p>
 <p>5 图片</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![图片名称]（图片地址），也可以使用html语句&lt;img src=<span class="string">"图片地址"</span> width=<span class="string">"200"</span> height=<span class="string">"200"</span>&gt;来自定义图片的大小。</div></pre></td></tr></table></figure>
